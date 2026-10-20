@@ -18,7 +18,7 @@ public class Program {
 		em.persist(p1);
 		em.persist(p2);
 		em.persist(p3);
-		em.getTransaction().commit();
+		em.getTransaction().commit(); //test
 		
 		System.out.println("PRONTO!");
 
